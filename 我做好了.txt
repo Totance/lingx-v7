@@ -1,0 +1,41 @@
+LINGX 零想科技 V7 官网已开发完成！
+
+项目路径：~/.openclaw/workspace/lingx-website-v7/
+
+技术栈：
+- React 18 + Vite
+- React Three Fiber + Drei
+- Zustand 状态管理
+- @react-three/postprocessing 后处理
+
+实现功能：
+
+✅ Stage 0：【随机 · 零想】Hero 页面
+- 3D 晶体 Logo（基于 Perlin Noise 随机漂移与形变）
+- 磨砂透射玻璃材质（IOR 1.15）
+- "点亮每个人心中的梦境" 文案
+- 点击任意处触发空间坍缩
+
+✅ Stage 1：【穿梭 · 维度】过渡动画
+- 视口 FOV 拉伸（50 → 120）
+- 极细流光从中心进发
+- 时长 1.2s
+
+✅ Stage 2：【梦境 · 入口】选择页面
+- Bokeh Field 背景（70 个磨砂球体）
+- 左侧入口：《寻剑》- 冷色雾气效果（青色）
+- 右侧入口：《奇幻巴比伦》- 金色几何生长效果
+- 精简文案：Mission、Philosophy、Business、Contact
+
+✅ 后期效果
+- Bloom 辉光
+- Depth of Field 景深虚化
+- Noise 胶片噪点
+
+运行方式：
+cd ~/.openclaw/workspace/lingx-website-v7
+npm run dev
+
+开发服务器已启动：http://localhost:5175/
+
+完成时间：2026-04-23
